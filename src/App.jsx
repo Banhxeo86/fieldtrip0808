@@ -48,8 +48,8 @@ function App() {
           </>
         )}
         
-        <footer style={{textAlign: 'center', padding: '2rem 0', color: 'var(--text-muted)', fontSize: '0.8rem'}}>
-          © 2026 금산초등학교 어린이예술단
+        <footer style={{textAlign: 'center', padding: '2rem 0', color: 'var(--text-muted)', fontSize: '0.8rem', wordBreak: 'keep-all'}}>
+          © 2026 금산초등학교 청음어린이예술단
         </footer>
       </div>
     </div>

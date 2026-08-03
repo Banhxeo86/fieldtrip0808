@@ -288,4 +288,6 @@
 
 .safety-box li {
   margin-bottom: 0.5rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
