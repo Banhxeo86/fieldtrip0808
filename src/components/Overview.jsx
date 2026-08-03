@@ -32,10 +32,6 @@ const Overview = () => {
               <p>{flights.inbound.departure} → {flights.inbound.arrival}</p>
             </div>
           </div>
-          <div className="flight-details">
-            <p><strong>수하물:</strong> 위탁 {flights.baggage.checked} / 기내 {flights.baggage.carryOn}</p>
-            <p className="flex items-center gap-2"><Utensils size={16}/> <strong>기내식:</strong> 출국({flights.meals.outbound}), 귀국({flights.meals.inbound})</p>
-          </div>
         </div>
       </motion.div>
 
@@ -49,7 +45,6 @@ const Overview = () => {
         <h2 className="section-title"><Home className="icon" /> 숙소 정보</h2>
         <div className="hotel-info">
           <h3>{accommodation.name}</h3>
-          <p>{accommodation.roomType}</p>
           <p className="text-sm">{accommodation.address}</p>
         </div>
       </motion.div>
@@ -61,7 +56,7 @@ const Overview = () => {
         viewport={{ once: true }}
         transition={{ delay: 0.2 }}
       >
-        <h2 className="section-title"><CloudSun className="icon" /> 도야마 날씨</h2>
+        <h2 className="section-title"><CloudSun className="icon" /> 도야마 날씨 (예정)</h2>
         <div className="weather-grid">
           {weather.map((w, idx) => (
             <div key={idx} className="weather-item">

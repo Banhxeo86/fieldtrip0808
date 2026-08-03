@@ -12,7 +12,7 @@ const Attractions = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <h2 className="section-title"><Map className="icon" /> 방문지 및 워크숍 안내</h2>
+      <h2 className="section-title"><Map className="icon" /> 방문지 및 워크숍 안내 (예정)</h2>
       
       <div className="attractions-list">
         {APP_DATA.attractions.map((item, idx) => (

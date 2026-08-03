@@ -42,7 +42,6 @@ const Checklist = () => {
     >
       <div className="flex items-center justify-between mb-4">
         <h2 className="section-title mb-0" style={{marginBottom: 0}}><CheckSquare className="icon" /> 준비물 체크리스트</h2>
-        <span className="text-primary font-bold">{progress}%</span>
       </div>
 
       <div style={{width: '100%', height: '6px', background: 'rgba(0,0,0,0.1)', borderRadius: '3px', marginBottom: '1.5rem'}}>

@@ -134,6 +134,8 @@ export const APP_DATA = {
 
   checklist: [
     { id: 'passport', label: '여권' },
+    { id: 'family_cert', label: '영문가족관계증명서' },
+    { id: 'vjw_qrcode', label: '비짓재팬웹 QR코드 준비' },
     { id: 'uniform_pants', label: '단체복(각바지)' },
     { id: 'uniform_shirt', label: '단체티' },
     { id: 'extra_clothes', label: '여벌 옷' },

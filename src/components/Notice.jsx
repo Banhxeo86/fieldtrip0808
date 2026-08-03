@@ -34,12 +34,39 @@ const Notice = () => {
             <li key={idx} className="text-sm text-muted">{tip}</li>
           ))}
         </ul>
-        <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
-          <a href={visitJapanWeb.link} target="_blank" rel="noreferrer" style={{display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--primary)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 'bold'}}>
-            <LinkIcon size={16} /> 공식 등록 링크
+        <div style={{display: 'flex', flexDirection: 'column', gap: '0.8rem', marginTop: '1.2rem'}}>
+          <a href={visitJapanWeb.link} target="_blank" rel="noreferrer" className="vjw-btn vjw-btn-primary" style={{
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'center',
+            gap: '0.5rem', 
+            color: '#fff', 
+            background: 'var(--primary)', 
+            padding: '0.8rem 1rem', 
+            borderRadius: 'var(--radius-sm)', 
+            textDecoration: 'none', 
+            fontSize: '0.95rem', 
+            fontWeight: 'bold',
+            boxShadow: 'var(--shadow-sm)',
+            transition: 'all 0.2s'
+          }}>
+            <LinkIcon size={18} /> 비짓재팬웹 공식 등록 바로가기
           </a>
-          <a href={visitJapanWeb.guide} target="_blank" rel="noreferrer" style={{display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-muted)', textDecoration: 'none', fontSize: '0.9rem'}}>
-            <LinkIcon size={16} /> 등록방법 설명 블로그
+          <a href={visitJapanWeb.guide} target="_blank" rel="noreferrer" className="vjw-btn vjw-btn-secondary" style={{
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'center',
+            gap: '0.5rem', 
+            color: 'var(--primary)', 
+            background: 'rgba(43, 92, 255, 0.1)', 
+            padding: '0.8rem 1rem', 
+            borderRadius: 'var(--radius-sm)', 
+            textDecoration: 'none', 
+            fontSize: '0.95rem', 
+            fontWeight: 'bold',
+            transition: 'all 0.2s'
+          }}>
+            <LinkIcon size={18} /> 등록방법 설명 블로그 보기
           </a>
         </div>
       </div>
