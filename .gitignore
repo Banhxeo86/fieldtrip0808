@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Root build assets
+/favicon.svg
+/icons.svg
+
